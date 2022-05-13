@@ -1,0 +1,385 @@
+/*
+#container
+{
+    width:100%;
+    height:600px;
+    background-color: white;
+}*/
+
+.button-work {
+  background-color:transparent;
+  border:#f7b301 solid;
+  border-width: 5px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.button-work:hover {
+  background-color: #f7b301;
+  color: white;
+}
+
+.button {
+  position:absolute;
+  background-color:#f7b301;
+  border:#f7b301 solid;
+  border-width: 5px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 10px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 100%;
+  right: 40%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+#container-contact
+{
+  background-image: url("background horse.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-hom
+{
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.container-gal
+{
+  padding: 10%;
+}
+
+.p
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+
+.p1
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.h2
+{
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.bullets 
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer
+{
+  background-color: #f7b301;
+  height:100px;
+  width: 100%;
+  float:left;
+}
+
+#footcol1
+{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items:center;
+}
+
+#active
+{
+  color:#116530;
+  font-weight: 475;
+  font-size: 28px;
+  justify-content: space-evenly;
+}
+
+.center-right {
+  position:absolute;
+  top: 90%;
+  right: 1%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  padding-right:12%;
+}
+
+.center-top {
+  position: absolute;
+  top: 60%;
+  right: 16px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  padding-right:23%;
+}
+
+.center-left {
+  position: absolute;
+  top: 35%;
+  left: 16px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  padding-left:40%;
+}
+
+ /* center left text on main image */
+
+.center-bottom {
+  position: absolute;
+  top: 144%;
+  right: 16px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  padding-right:60%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:#f7b301;
+    border:#f7b301 solid;
+    border-width: 5px;
+    border-radius: 8px;
+    padding: 10px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 100%;
+    right: 40%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: transparent;
+  }
+
+  #form
+  {
+    border-radius: 5px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top:200px;
+    padding-bottom: 200px;
+  }
+
+
+/*
+#header
+{
+    height:220px;
+    width: 100%;
+    float:left;
+}
+#logo1
+{
+    height:300px;
+    width: 400px;
+    float:left;
+    padding-top: 0px;
+   
+}
+#home 
+{
+    height:100px;
+    width: 100px;
+    float:left;
+}
+#gallery 
+{
+    height:100px;
+    width: 100px;
+    float:left;
+}
+#work 
+{
+    height:100px;
+    width: 100px;
+    float:left;
+}
+#contact 
+{
+    height:100px;
+    width: 100px;
+    float:left;
+}
+#mainheading2
+{
+    height:300px;
+    width: 800px;
+    float:left;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+}
+#navmenu 
+{
+    height:200px;
+    width: 400px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+#panel1
+{
+    height:600px;
+    width: 700px;
+    float:left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#panel2
+{
+    height:600px;
+    width: 800px;
+    float:right;
+}
+#panel3
+{
+    height:600px;
+    width: 800;
+    float:right;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color:#ffffff;
+}
+/* center right text on main image */
+
+  /* center left text on main image * /
+
+#panel4
+{
+    width: 100%;
+    float:left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#ffffff;
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
+  }
+
+
+  #firstsection
+{
+    height:500px;
+    width: 1600px;
+    float:left;
+}
+  .flex-navmenu {
+	display:flex;
+	flex-direction:row; /*column or row - reverese options , column-reverse/row-reverse* /
+	justify-content: space-evenly; /* row spacing (left or right or center)* /
+	align-items:flex-end; /*column spacing (up, down center)* /
+}
+.flex-mainheading {
+	display:flex;
+	flex-direction:row; 
+	justify-content: space-around; 
+	align-items:center;
+}
+.flex-header {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between; 
+	align-items: center;
+}
+.flex-logo {
+	display:flex;
+	flex-direction:row; 
+	justify-content: center;
+	align-items:flex-start; 
+}
+.flex-panel2 {
+	display:flex;
+	flex-direction:row; 
+	justify-content: center;
+	align-items: center; 
+}
+.flex-bullets {
+	display:flex;
+	flex-direction:row; 
+	justify-content:left; 
+	align-items: center; 
+}
+.flex-panel4 {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+  align-content:flex-start;
+	align-items:flex-start; 
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+
+  /* Style all font awesome icons * /
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect if you want * /
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand * /
+/* Facebook * /
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter * /
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+*/
