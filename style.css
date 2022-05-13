@@ -1,11 +1,5 @@
-/*
-#container
-{
-    width:100%;
-    height:600px;
-    background-color: white;
-}*/
 
+/*Buttons on various screens**********************************************************/
 .button-work {
   background-color:transparent;
   border:#f7b301 solid;
@@ -50,6 +44,9 @@
   color: white;
 }
 
+
+
+/*Various Containers***********************************************************/
 #container-contact
 {
   background-image: url("background horse.jpg");
@@ -68,6 +65,11 @@
 {
   padding: 10%;
 }
+
+
+
+
+/*styling Text editors*******************************************************/
 
 .p
 {
@@ -103,6 +105,11 @@
   padding-right: 100px;
 }
 
+
+
+
+/*Footer styling*************************************************************/
+
 .footer
 {
   background-color: #f7b301;
@@ -118,6 +125,9 @@
   align-items:center;
 }
 
+
+/*Navigation Styling*************************************************************/
+
 #active
 {
   color:#116530;
@@ -125,6 +135,13 @@
   font-size: 28px;
   justify-content: space-evenly;
 }
+
+
+
+
+
+
+/*Floating Text for main headers on each page*************************************/
 
 .center-right {
   position:absolute;
@@ -164,7 +181,9 @@
   padding-right:60%;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+
+/*Contact form*************************************************************/
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;  
@@ -175,7 +194,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical ;
   }
-  /* Style the submit button with a specific background color etc */
+  
   input[type=submit] {
     background-color:#f7b301;
     border:#f7b301 solid;
@@ -191,7 +210,7 @@ input[type=text], select, textarea {
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  /* When moving the mouse over the submit button, add a darker green color */
+
   input[type=submit]:hover {
     background-color: transparent;
   }
